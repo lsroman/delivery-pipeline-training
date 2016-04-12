@@ -8,17 +8,17 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['pumpkin-tart-71750'],
+  app_name: ['devops-semrush'],
   /**
    * Your New Relic license key.
    */
-  license_key: 'eee61b7f7f91dd27420975c00ae02d8f97bb6922',
+  license_key: '3e8fecb20656dc6310d472e8ce86899864d23d4c',
   logging: {
     /**
      * Level at which to log. 'trace' is most useful to New Relic when diagnosing
      * issues with the agent, 'info' and higher will impose the least overhead on
      * production applications.
      */
-    level: 'info'
+    level: 'trace'
   }
 }
